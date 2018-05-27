@@ -1,0 +1,97 @@
+*{
+    outline: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+
+/*nav*/
+.navbar{
+  background-color: white;
+    position: fixed;
+    height: 9%;
+    width: 100%;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+    background-color: white;
+    padding-right: 10%;
+}
+.navbar .n-button{
+    border-radius: 50px;
+    color: #493265;
+    border-color: gray;
+    font-weight: 500;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.5);
+}
+.navbar .n-button:hover{
+   background-color: #816bff; 
+}
+.nav-item a{
+    color: #493265;
+}
+.navbar-brand{
+    padding-left: 10%;
+}
+
+
+/*home*/
+.text-home p{
+    display: block;
+}
+.home-p{
+    padding-top: 30vh;
+    height: 100vh;
+    padding-left: 10%;
+    padding-bottom: 20%;
+    /*padding: 7% 10%;*/
+}
+.home-p h1{
+    color:#7c6bff;
+    font-size: 55pt;
+}
+.home-p h2{
+    color:#9576ca;
+    font-size: 30pt;
+}
+.home-p p{
+    padding-top: 3vh;
+    padding-right:30%;
+    color:#707070;
+    font-size: 30pt;
+    
+}
+.half-iph {
+    height: 100vh;
+    background-image: url(pics/Device.png);
+    background-repeat: no-repeat;
+    background-size: 74%;
+    background-position: 20% 60%;
+    padding-left: 10%;
+    padding-top: 10vh;
+    padding-bottom: 30%;
+    /*padding: 7% 10%;*/
+}
+.Device{
+    position: absolute;
+    top: 1.2%;
+    left: 15%;
+}
+.button-set{
+    border-radius: 50px;
+    color: white;
+    background-color: #7d6bff;
+    border: none;
+}
+.button-set:hover{
+    background-color: #6657d1; 
+    border:none;
+}
+.button-set:focus{
+    background-color: #6657d1;  
+    border:none;
+}
