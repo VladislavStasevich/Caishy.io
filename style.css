@@ -1,20 +1,22 @@
 *{
-    outline: none;
+    
 }
 
 a, a:hover {
     text-decoration: none;
     color: inherit;
-    
+    outline: none;
 }
 
 
 /*nav*/
 .navbar{
-  background-color: white;
+    background-color: white;
     position: fixed;
     height: 9%;
     width: 100%;
+    z-index: 2;
+    
 }
 .navbar-collapse{
     justify-content: flex-end;
@@ -90,5 +92,15 @@ a, a:hover {
 .button-set:hover{
     background-color: #6657d1; 
     border:none;
+}
+.button-div{
+    padding-top: 10%;
+    padding-left: 50%;
+}
+
+/*about*/
+.about{
+    height: 100vh;
+    background:linear-gradient(90deg, #7e6bff, #a068ff)
 }
 
