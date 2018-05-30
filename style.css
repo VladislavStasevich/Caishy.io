@@ -1,13 +1,8 @@
-*{
-    
-}
-
 a, a:hover {
     text-decoration: none;
     color: inherit;
     outline: none;
 }
-
 
 /*nav*/
 .navbar{
@@ -35,11 +30,19 @@ a, a:hover {
 }
 .nav-item a{
     color: #493265;
+    font-size: 1.3rem;
+}
+.nav-item a:hover{
+    color: gray;
+    
 }
 .navbar-brand{
     padding-left: 10%;
 }
-
+.n-button-setup{
+    padding-top: 1.2%;
+    padding-left: 2%;
+}
 
 /*home*/
 .text-home p{
@@ -100,7 +103,102 @@ a, a:hover {
 
 /*about*/
 .about{
+    align-items: center;
+    padding: 0;
     height: 100vh;
-    background:linear-gradient(90deg, #7e6bff, #a068ff)
+    background: linear-gradient(90deg, #7e6bff, #a068ff);
+    padding-top: 110px;
+    padding-right: 120px;
 }
+.about-mac{
+    position: relative;
+}
+.about-mac img{
+    position: absolute;
+    left: 0%;
+    top: -280px;
+}
+.txt-set{
+    color: white;
+}
+.txt-set h1{
+   font-size: 2.5rem; 
+}
+.txt-set p{
+    font-size: 1.5rem;
+    color: #d6caff;
+}
+.img-set{
+    padding-left: 15%;
+}
+
+/*team*/
+.team{
+    align-items: center;
+    padding: 0;
+    height: 100vh;
+    padding-top: 110px;
+    padding-left: 10%;
+    padding-right: 10%
+}
+.photo-c>div{
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #7e6bff, #a068ff); 
+    padding-top: 150px;
+}
+.team .col-3{
+    padding-top: 10%;
+    /*border: 1px solid red;*/
+}
+.person-txt>h4{
+    color: #4c33ff;
+    text-align: center;
+    font-size: 2.8rem;
+}
+.person-txt>p{
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 1.7rem;
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.person-txt{
+    padding-top: 10%;
+}
+
+/*footer*/
+.footer{
+    background-color: #f3f3f3;
+    height: 20vh;   
+}
+.p-footer{
+    color: #a79cfb;
+    font-size: 1.5rem;
+}
+.a-footer{
+    color: #7c6bff;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.f-set{
+ padding-top: 2%;   
+}
+.first-div{
+    padding-left: 10%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.sec-div{
+    padding-right: 20%;
+}
+.button-footer{
+    padding-left: 13%;
+    padding-bottom: 3%;
+}
+
+
 
