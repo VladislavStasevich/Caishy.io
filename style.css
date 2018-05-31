@@ -1,4 +1,4 @@
-html{
+чhtml{
     overflow-x: hidden;
 }
 
@@ -117,7 +117,7 @@ a, a:hover {
 .about-mac img{
     position: absolute;
     left: 0%;
-    top: 15%;
+    top: 250px;
 }
 .txt-set{
     color: white;
