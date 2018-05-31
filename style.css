@@ -1,5 +1,5 @@
-*{
-    
+html{
+    overflow-x: hidden;
 }
 
 a, a:hover {
@@ -12,10 +12,9 @@ a, a:hover {
 .navbar{
     background-color: white;
     position: fixed;
-    height: 9%;
+    height: 9vh;
     width: 100%;
     z-index: 2;
-    
 }
 .navbar-collapse{
     justify-content: flex-end;
@@ -37,8 +36,7 @@ a, a:hover {
     font-size: 1.3rem;
 }
 .nav-item a:hover{
-    color: gray;
-    
+    color: gray;    
 }
 .navbar-brand{
     padding-left: 10%;
@@ -108,22 +106,22 @@ a, a:hover {
 /*about*/
 .about{
     align-items: center;
-    padding: 0;
-    height: 100vh;
+    padding: 11vh 0 11vh 0;
+    /*height: 100vh;*/
     background: linear-gradient(90deg, #7e6bff, #a068ff);
-    padding-top: 110px;
-    padding-right: 120px;
 }
 .about-mac{
     position: relative;
+    height:100%;
 }
 .about-mac img{
     position: absolute;
     left: 0%;
-    top: -280px;
+    top: 15%;
 }
 .txt-set{
     color: white;
+    /*padding-right: 12%;*/
 }
 .txt-set h1{
    font-size: 2.5rem; 
@@ -139,16 +137,13 @@ a, a:hover {
 /*team*/
 .team{
     align-items: center;
-    padding: 0;
-    height: 100vh;
-    padding-top: 110px;
-    padding-left: 10%;
-    padding-right: 10%
+    padding: 11vh 13% 10vh 13%;
+    /*height: 100vh;*/
 }
 .photo-c>div{
     margin: 0 auto;
-    height: 300px;
-    width: 300px;
+    height: 30vh;
+    width: 30vh;
     border-radius: 50%;
     background: linear-gradient(90deg, #7e6bff, #a068ff); 
     padding-top: 150px;
@@ -201,7 +196,10 @@ a, a:hover {
 }
 .button-footer{
     padding-left: 13%;
-    padding-bottom: 3%;
+    padding-bottom: 3%;    
+}
+.button-p{
+    padding: 1% 2vh 1% 2vh;
 }
 
 
