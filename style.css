@@ -1,6 +1,6 @@
-чhtml{
+/*html{
     overflow-x: hidden;
-}
+}*/
 
 a, a:hover {
     text-decoration: none;
@@ -44,6 +44,13 @@ a, a:hover {
 .n-button-setup{
     padding-top: 1.2%;
     padding-left: 2%;
+}
+.navbarbuttonset{
+    
+    color:#7d6bff;
+}
+.navbar-toggler-icon{
+    color: black;
 }
 
 /*home*/
@@ -102,11 +109,35 @@ a, a:hover {
     padding-top: 10%;
     padding-left: 50%;
 }
+@media screen and (max-width:992px) {
+    .half-iph{
+        background: none;
+        padding-bottom: 0%;
+    }
+    .half-iph{
+        height: 0vh;
+    }
+    .home-p{
+        padding-top: 30%;
+        padding-right: 10%; 
+        padding-left: 10%;
+    }
+    .home-p p{
+        padding-right: 0%;
+        text-align: right;
+    }
+    .button-div{
+        display: flex;
+        padding-top: 10%;
+        padding-left: 0%;
+        justify-content: center;
+    }
+}
 
 /*about*/
 .about{
     align-items: center;
-    padding: 11vh 0 11vh 0;
+    padding: 11vh 0 0 0;
     /*height: 100vh;*/
     background: linear-gradient(90deg, #7e6bff, #a068ff);
 }
@@ -117,7 +148,7 @@ a, a:hover {
 .about-mac img{
     position: absolute;
     left: 0%;
-    top: 15%;
+    top: 3%;
 }
 .txt-set{
     color: white;
@@ -133,6 +164,26 @@ a, a:hover {
 .img-set{
     padding-left: 15%;
 }
+@media screen and (max-width:992px)/*about*/ {
+    .img-set{
+        padding: 0;
+        width: 100%;
+    }
+    .img-set img{
+        display: block;
+        margin: 0 auto;        
+    }
+    .about-mac img{
+        display: none;
+    }
+    .about{
+        padding-bottom: 15vh;
+    }
+    .txt-set{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+} 
 
 /*team*/
 .team{
@@ -201,6 +252,13 @@ a, a:hover {
 .button-p{
     padding: 1% 2vh 1% 2vh;
 }
-
-
-
+@media screen and (max-width:992px){
+    .first-div, .sec-div, .button-footer{
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+    } 
+    .footer{
+    height: 40vh;   
+}
+}
