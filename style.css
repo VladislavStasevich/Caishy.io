@@ -135,7 +135,7 @@ a, a:hover {
     align-items: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    height: 100vh;
+    /*height: 100vh;*/
     background: linear-gradient(90deg, #7e6bff, #a068ff);
 }
 .about-mac{
@@ -145,7 +145,7 @@ a, a:hover {
 .about-mac img{
     position: absolute;
     left: 0%;
-    top: 10%;
+    top: 13vh; /*Last changing*/
 }
 .txt-set{
     color: white;
