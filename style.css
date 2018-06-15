@@ -196,6 +196,12 @@ a, a:hover {
     background: linear-gradient(90deg, #7e6bff, #a068ff); 
     padding-top: 150px;
 }
+@media (max-width: 1526px){
+    .photo-c>div{
+        height: 20vh;
+        width: 20vh;
+    }
+}
 .team .col-3{
     padding-top: 10%;
     /*border: 1px solid red;*/
